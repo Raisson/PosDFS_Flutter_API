@@ -10,7 +10,7 @@ class PokeApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'PokeApp',
-      theme: ThemeData ( // teste conflito
+      theme: ThemeData (
         primarySwatch: Colors.blue,
       ),
       home: PokemonList(),
