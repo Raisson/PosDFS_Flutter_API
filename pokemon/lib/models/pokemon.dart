@@ -1,6 +1,7 @@
 class Pokemon {
   final String name;
   final String url;
+  String? spritesUrl;
 
   Pokemon({required this.name, required this.url});
 
