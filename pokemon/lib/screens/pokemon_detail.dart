@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:pokemon/screens/bottom_navigation.dart';
 import '../models/pokemon.dart';
 
 class PokemonDetail extends StatelessWidget {
@@ -16,6 +17,7 @@ class PokemonDetail extends StatelessWidget {
       body: Center(
         child: Text('Details of ${pokemon.name}'),
       ),
+      bottomNavigationBar: MyBottomNavigation()
     );
   }
 }
